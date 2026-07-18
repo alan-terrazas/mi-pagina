@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8EC;
+    color: #546B41;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #DCCCAC;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #546B41;
+    text-align: center;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px; 
+}
+
+button {
+    background-color: #99AD7A;
+    color: #FFF8EC;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #546B41;
+}
+
+.imagen-jardin {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #DCCCAC;
+}
+
+article {
+  
+    flex: 1 1 280px; 
+    max-width: 300px;
+    padding: 15px;
+    border: 2px solid #99AD7A;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFF8EC;
+}
+
+article img {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.bloque-nosotros {
+    text-align: center;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #DCCCAC;
+    border-radius: 10px;
+    border: 2px solid #546B41;
+}
+
+.bloque-nosotros p {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+
+@media (max-width: 768px) {
+
+    article {
+        max-width: 90%;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+}
